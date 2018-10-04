@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:fme="http://www.safe.com/gml/fme" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.safe.com/gml/fme" elementFormDefault="qualified">
+	<import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
+	<element name="Address_raw" type="fme:Address_rawType" substitutionGroup="gml:_Feature"/>
+	<complexType name="Address_rawType">
+		<complexContent>
+			<extension base="gml:AbstractFeatureType">
+				<sequence>
+					<element name="identificatie" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="double"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="oppervlakte" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="double"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="status" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="string"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="gebruiksdoel" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="string"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="openbare_ruimte" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="string"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="huisnummer" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="double"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="huisletter" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="string"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="toevoeging" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="string"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="postcode" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="string"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="woonplaats" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="string"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="actualiteitsdatum" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="dateTime"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="bouwjaar" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="double"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="pandidentificatie" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="double"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="pandstatus" minOccurs="0" nillable="true">
+						<complexType>
+							<simpleContent>
+								<extension base="string"/>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="geometrie" minOccurs="0" type="gml:PointPropertyType"/>
+					<element name="pandgeometrie" minOccurs="0" type="gml:GeometryPropertyType"/>
+					<element name="_clipped" minOccurs="0">
+						<simpleType>
+							<restriction base="string">
+								<maxLength value="200"/>
+							</restriction>
+						</simpleType>
+					</element>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+</schema>
