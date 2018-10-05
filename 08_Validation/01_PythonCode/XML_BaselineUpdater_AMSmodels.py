@@ -3,7 +3,6 @@ import retrieveModelGeometry
 import populateXMLConstruction
 from globalSetting import globalParameters
 
-
 # import global parameter setting
 gParameter = globalParameters()
 conn = gParameter.conn

@@ -16,7 +16,7 @@ def globalParameters():
         conn = psycopg2.connect("host=localhost dbname=AMS user=postgres password=ia09")  # Set up DB connection here
         validationTypes = 'calibrated'
         validationYear = '2016'
-        filePrefix = 'AOI_large_'
+        filePrefix = 'AOI_small_'
         inputXML = filePrefix + 'nonpolygon_cleaned_mUpdated.xml'
         saveToCloud = True
 

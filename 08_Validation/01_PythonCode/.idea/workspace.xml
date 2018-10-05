@@ -12,9 +12,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/01_PythonCode$populateBaselineInputs.coverage" NAME="populateBaselineInputs Coverage Results" MODIFIED="1538594206679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/01_PythonCode$runCitySim_Validation.coverage" NAME="runCitySim_Validation Coverage Results" MODIFIED="1538647468327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/01_PythonCode$resultCleaning_Baseline.coverage" NAME="resultCleaning_Baseline Coverage Results" MODIFIED="1538655099581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/03_PythonCode$importCBSpc6.coverage" NAME="importCBSpc6 Coverage Results" MODIFIED="1531149695640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/01_PythonCode$XML_PosteriorUpdater_AMSmodels.coverage" NAME="XML_PosteriorUpdater_AMSmodels Coverage Results" MODIFIED="1538601930415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/01_PythonCode$XML_BaselineUpdater_AMSmodels.coverage" NAME="XML_BaselineUpdater_AMSmodels Coverage Results" MODIFIED="1538601077816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/01_PythonCode$XML_PosteriorUpdater_AMSmodels.coverage" NAME="XML_PosteriorUpdater_AMSmodels Coverage Results" MODIFIED="1538658035262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/01_PythonCode$XML_BaselineUpdater_AMSmodels.coverage" NAME="XML_BaselineUpdater_AMSmodels Coverage Results" MODIFIED="1538657955545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/03_PythonCode$importLianderEnergy.coverage" NAME="importLianderEnergy Coverage Results" MODIFIED="1531297379497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/01_PythonCode$globalSetting.coverage" NAME="globalSetting Coverage Results" MODIFIED="1538595675496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
     <SUITE FILE_PATH="coverage/01_PythonCode$populatePosteriorInputs.coverage" NAME="populatePosteriorInputs Coverage Results" MODIFIED="1538598142378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -29,17 +30,19 @@
         <entry file="file://$PROJECT_DIR$/XML_BaselineUpdater_AMSmodels.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
-              <folding />
+              <caret line="101" column="57" lean-forward="true" selection-start-line="101" selection-start-column="57" selection-end-line="101" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XML_PosteriorUpdater_AMSmodels.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="XML_PosteriorUpdater_AMSmodels.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XML_PosteriorUpdater_AMSmodels.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="169" column="11" lean-forward="false" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="11" />
+            <state relative-caret-position="210">
+              <caret line="115" column="44" lean-forward="true" selection-start-line="115" selection-start-column="44" selection-end-line="115" selection-end-column="44" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <marker date="1538600120000" expanded="true" signature="657:875" ph="select tb1.*... BuildingBaselayer" />
@@ -52,8 +55,8 @@
       <file leaf-file-name="runCitySim_Validation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runCitySim_Validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="111" column="52" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="111" selection-end-column="52" />
+            <state relative-caret-position="146">
+              <caret line="56" column="60" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="60" />
               <folding>
                 <element signature="e#286#295#0" expanded="true" />
                 <marker date="1538648398000" expanded="true" signature="677:705" ph="DROP TABLE I... " />
@@ -66,8 +69,8 @@
       <file leaf-file-name="globalSetting.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/globalSetting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="e#193#208#0" expanded="true" />
               </folding>
@@ -75,35 +78,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resultCleaning_Baseline.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resultCleaning_Baseline.py">
+      <file leaf-file-name="resultCleaning.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resultCleaning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2250">
-              <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1538651101000" expanded="true" signature="1117:1449" ph="SELECT &quot;post... BuildingBaselayer" />
-                <marker date="1538651101000" expanded="true" signature="3600:3643" ph="DROP TABLE I... " />
-                <marker date="1538651101000" expanded="true" signature="3658:3854" ph="CREATE TABLE... PC6_Archetype" />
-                <marker date="1538651101000" expanded="true" signature="3955:4172" ph="select disti... BuildingBaselayer" />
-                <marker date="1538651101000" expanded="true" signature="4596:4661" ph="INSERT INTO public.&quot;PC6_Archetype&quot;... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resultCleaning_Posterior.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultCleaning_Posterior.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1534114325000" expanded="true" signature="875:1207" ph="SELECT &quot;post... BuildingBaselayer" />
-                <marker date="1534114325000" expanded="true" signature="3361:3404" ph="DROP TABLE I... " />
-                <marker date="1534114325000" expanded="true" signature="3419:3615" ph="CREATE TABLE... PC6_Archetype" />
-                <marker date="1534114325000" expanded="true" signature="3716:3933" ph="select disti... BuildingBaselayer" />
-                <marker date="1534114325000" expanded="true" signature="4357:4422" ph="INSERT INTO public.&quot;PC6_Archetype&quot;... " />
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1538655099000" expanded="true" signature="1210:1542" ph="SELECT &quot;post... BuildingBaselayer" />
+                <marker date="1538655099000" expanded="true" signature="3662:3705" ph="DROP TABLE I... " />
+                <marker date="1538655099000" expanded="true" signature="3720:3916" ph="CREATE TABLE... pc6_archetype" />
+                <marker date="1538655099000" expanded="true" signature="4017:4234" ph="select disti... BuildingBaselayer" />
+                <marker date="1538655099000" expanded="true" signature="4658:4723" ph="INSERT INTO public.&quot;pc6_archetype&quot;... " />
               </folding>
             </state>
           </provider>
@@ -137,7 +123,10 @@
       <find>treePath</find>
       <find>baselineOutputPath</find>
       <find>N</find>
+      <find>basel</find>
+      <find>baseline</find>
       <find>save</find>
+      <find>PC6</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -157,17 +146,17 @@
         <option value="$PROJECT_DIR$/resultCleaning.py" />
         <option value="$PROJECT_DIR$/SQLscript" />
         <option value="$PROJECT_DIR$/resultCleaning_Posterior.py" />
-        <option value="$PROJECT_DIR$/populateBaselineInputs.py" />
         <option value="$PROJECT_DIR$/.idea/globalSetting.py" />
         <option value="$PROJECT_DIR$/retrieveModelGeometry.py" />
         <option value="$PROJECT_DIR$/populatePosteriorInputs.py" />
-        <option value="$PROJECT_DIR$/XML_BaselineUpdater_AMSmodels.py" />
         <option value="$PROJECT_DIR$/runCitySim_Posterior.py" />
         <option value="$PROJECT_DIR$/runCitySim_Baseline.py" />
         <option value="$PROJECT_DIR$/XML_PosteriorUpdater_AMSmodels.py" />
         <option value="$PROJECT_DIR$/runCitySim_Validation.py" />
-        <option value="$PROJECT_DIR$/globalSetting.py" />
         <option value="$PROJECT_DIR$/resultCleaning_Baseline.py" />
+        <option value="$PROJECT_DIR$/XML_BaselineUpdater_AMSmodels.py" />
+        <option value="$PROJECT_DIR$/populateBaselineInputs.py" />
+        <option value="$PROJECT_DIR$/globalSetting.py" />
       </list>
     </option>
   </component>
@@ -233,25 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.runCitySim_Validation">
-    <configuration default="false" name="populateBaselineInputs" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="03_PythonCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/populateBaselineInputs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.XML_PosteriorUpdater_AMSmodels">
     <configuration default="false" name="XML_BaselineUpdater_AMSmodels" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,6 +291,24 @@
       <module name="03_PythonCode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runCitySim_Validation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="resultCleaning_Baseline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="03_PythonCode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resultCleaning_Baseline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -557,20 +546,20 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Python.populateBaselineInputs" />
-      <item index="1" class="java.lang.String" itemvalue="Python.globalSetting" />
-      <item index="2" class="java.lang.String" itemvalue="Python.XML_BaselineUpdater_AMSmodels" />
-      <item index="3" class="java.lang.String" itemvalue="Python.populatePosteriorInputs" />
-      <item index="4" class="java.lang.String" itemvalue="Python.XML_PosteriorUpdater_AMSmodels" />
-      <item index="5" class="java.lang.String" itemvalue="Python.runCitySim_Validation" />
+      <item index="0" class="java.lang.String" itemvalue="Python.globalSetting" />
+      <item index="1" class="java.lang.String" itemvalue="Python.XML_BaselineUpdater_AMSmodels" />
+      <item index="2" class="java.lang.String" itemvalue="Python.populatePosteriorInputs" />
+      <item index="3" class="java.lang.String" itemvalue="Python.XML_PosteriorUpdater_AMSmodels" />
+      <item index="4" class="java.lang.String" itemvalue="Python.runCitySim_Validation" />
+      <item index="5" class="java.lang.String" itemvalue="Python.resultCleaning_Baseline" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.runCitySim_Validation" />
-        <item index="1" class="java.lang.String" itemvalue="Python.XML_PosteriorUpdater_AMSmodels" />
-        <item index="2" class="java.lang.String" itemvalue="Python.XML_BaselineUpdater_AMSmodels" />
-        <item index="3" class="java.lang.String" itemvalue="Python.populatePosteriorInputs" />
-        <item index="4" class="java.lang.String" itemvalue="Python.populateBaselineInputs" />
+        <item index="0" class="java.lang.String" itemvalue="Python.XML_PosteriorUpdater_AMSmodels" />
+        <item index="1" class="java.lang.String" itemvalue="Python.XML_BaselineUpdater_AMSmodels" />
+        <item index="2" class="java.lang.String" itemvalue="Python.resultCleaning_Baseline" />
+        <item index="3" class="java.lang.String" itemvalue="Python.runCitySim_Validation" />
+        <item index="4" class="java.lang.String" itemvalue="Python.populatePosteriorInputs" />
       </list>
     </recent_temporary>
   </component>
@@ -600,7 +589,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -673,7 +662,6 @@
     <entry file="file://$PROJECT_DIR$/populateModelInputs_Ninf_Tmin.py" />
     <entry file="file://$PROJECT_DIR$/XMLupdater_AMSmodels.py" />
     <entry file="file://$PROJECT_DIR$/runCitySim.py" />
-    <entry file="file://$PROJECT_DIR$/resultCleaning.py" />
     <entry file="file://$PROJECT_DIR$/SQLscript">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -715,20 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/populateBaselineInputs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1133">
-          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <element signature="e#167#182#0" expanded="true" />
-            <marker date="1538594193000" expanded="true" signature="339:383" ph="DROP TABLE I... " />
-            <marker date="1538594193000" expanded="true" signature="394:1156" ph="CREATE TABLE... BaselineInputs" />
-            <marker date="1538594193000" expanded="true" signature="1167:1232" ph="ALTER TABLE public.&quot;BaselineInputs&quot;... " />
-            <marker date="1538594193000" expanded="true" signature="2136:2258" ph="INSERT INTO public.&quot;BaselineInputs&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/populatePosteriorInputs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
@@ -739,14 +713,6 @@
             <marker date="1538598142000" expanded="true" signature="419:1098" ph="CREATE TABLE... ModelInputs" />
             <marker date="1538598142000" expanded="true" signature="2173:2300" ph="INSERT INTO public.&quot;ModelInputs&quot;... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XML_BaselineUpdater_AMSmodels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,47 +732,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XML_PosteriorUpdater_AMSmodels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="169" column="11" lean-forward="false" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1538600120000" expanded="true" signature="657:875" ph="select tb1.*... BuildingBaselayer" />
-            <marker date="1538600120000" expanded="true" signature="929:976" ph="select * fro... PC6_PosteriorInputs" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultCleaning_Posterior.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1534114325000" expanded="true" signature="875:1207" ph="SELECT &quot;post... BuildingBaselayer" />
-            <marker date="1534114325000" expanded="true" signature="3361:3404" ph="DROP TABLE I... " />
-            <marker date="1534114325000" expanded="true" signature="3419:3615" ph="CREATE TABLE... PC6_Archetype" />
-            <marker date="1534114325000" expanded="true" signature="3716:3933" ph="select disti... BuildingBaselayer" />
-            <marker date="1534114325000" expanded="true" signature="4357:4422" ph="INSERT INTO public.&quot;PC6_Archetype&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/globalSetting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="e#193#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runCitySim_Validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="111" column="52" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="111" selection-end-column="52" />
+        <state relative-caret-position="146">
+          <caret line="56" column="60" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="60" />
           <folding>
             <element signature="e#286#295#0" expanded="true" />
             <marker date="1538648398000" expanded="true" signature="677:705" ph="DROP TABLE I... " />
@@ -815,17 +744,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resultCleaning_Posterior.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resultCleaning_Baseline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+        <state relative-caret-position="1470">
+          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/populateBaselineInputs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1538651101000" expanded="true" signature="1117:1449" ph="SELECT &quot;post... BuildingBaselayer" />
-            <marker date="1538651101000" expanded="true" signature="3600:3643" ph="DROP TABLE I... " />
-            <marker date="1538651101000" expanded="true" signature="3658:3854" ph="CREATE TABLE... PC6_Archetype" />
-            <marker date="1538651101000" expanded="true" signature="3955:4172" ph="select disti... BuildingBaselayer" />
-            <marker date="1538651101000" expanded="true" signature="4596:4661" ph="INSERT INTO public.&quot;PC6_Archetype&quot;... " />
+            <element signature="e#167#182#0" expanded="true" />
+            <marker date="1538656103000" expanded="true" signature="320:364" ph="DROP TABLE I... " />
+            <marker date="1538656103000" expanded="true" signature="375:1137" ph="CREATE TABLE... BaselineInputs" />
+            <marker date="1538656103000" expanded="true" signature="1148:1213" ph="ALTER TABLE public.&quot;BaselineInputs&quot;... " />
+            <marker date="1538656103000" expanded="true" signature="2117:2239" ph="INSERT INTO public.&quot;BaselineInputs&quot;... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultCleaning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1538655099000" expanded="true" signature="1210:1542" ph="SELECT &quot;post... BuildingBaselayer" />
+            <marker date="1538655099000" expanded="true" signature="3662:3705" ph="DROP TABLE I... " />
+            <marker date="1538655099000" expanded="true" signature="3720:3916" ph="CREATE TABLE... pc6_archetype" />
+            <marker date="1538655099000" expanded="true" signature="4017:4234" ph="select disti... BuildingBaselayer" />
+            <marker date="1538655099000" expanded="true" signature="4658:4723" ph="INSERT INTO public.&quot;pc6_archetype&quot;... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML_BaselineUpdater_AMSmodels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="101" column="57" lean-forward="true" selection-start-line="101" selection-start-column="57" selection-end-line="101" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globalSetting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#193#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML_PosteriorUpdater_AMSmodels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="115" column="44" lean-forward="true" selection-start-line="115" selection-start-column="44" selection-end-line="115" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1538600120000" expanded="true" signature="657:875" ph="select tb1.*... BuildingBaselayer" />
+            <marker date="1538600120000" expanded="true" signature="929:976" ph="select * fro... PC6_PosteriorInputs" />
           </folding>
         </state>
       </provider>

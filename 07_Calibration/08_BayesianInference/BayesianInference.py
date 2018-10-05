@@ -131,9 +131,9 @@ def createPC6_posteriorInputsDB(conn):
     cur = conn.cursor()
     cur.execute(
         """
-        DROP TABLE IF EXISTS public."PC6_PosteriorInputs";
+        DROP TABLE IF EXISTS public."pc6_posterior_results";
 
-        CREATE TABLE public."PC6_PosteriorInputs"
+        CREATE TABLE public."pc6_posterior_results"
         (
         "postcode" character varying,
         "archetype" character varying,
@@ -163,7 +163,7 @@ def pickUpInputCombination(pc6_prob, pc6TrainedCounts, pc6_archetype, inputSets,
         trainingTimes = len(pc6TrainedCounts[pc6])
 
         cur.execute(
-        """INSERT INTO public."PC6_PosteriorInputs"
+        """INSERT INTO public."pc6_posterior_results"
            VALUES (%s, %s, %s, %s, %s, %s)""", [pc6, archetype, maxProb, post_Tmin, post_Ninf, trainingTimes]
         )
     cur.close()
