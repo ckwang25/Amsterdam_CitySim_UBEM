@@ -19,7 +19,7 @@ def globalParameters():
         gridSize = 5                                        # Divided section number of the uncertain parameter
         caseNum = gridSize**k
         simulationYear = '2014'
-        trainingYears = ['2010', '2011','2012','2013', '2014', '2015']
+        trainingYears = ['2012','2013', '2014', '2015']
 
         # specify simulation result csv path here
         filePrefix = 'AOI_all_semantic_'

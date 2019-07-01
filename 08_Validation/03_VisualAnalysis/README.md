@@ -1,0 +1,2 @@
+Validation visualization_likelihood_modified.ipynb: developed in 2019 April for visualizing results generated from the modified likelihood model.
+Validation visualization.ipynb: developed in 2018 October, which visualizes the unmodified model results.
